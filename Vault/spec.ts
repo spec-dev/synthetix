@@ -29,6 +29,7 @@ class Vault extends LiveTable {
         this.poolId = BigInt.from(event.data.poolId)
         this.collateralType = event.data.collateralType
         await this.load()
+        
         const delta = await this._getAmountDelta(event)
         this.collateralAmount = this.collateralAmount.plus(delta)
         this.createdAt = this.blockTimestamp
