@@ -1,0 +1,9 @@
+{
+    "namespace": "synthetixv3",
+    "name": "Vault",
+    "version": "0.0.1",
+    "displayName": "Synthetix Vaults",
+    "description": "All vaults on Synthetix V3.",
+    "chains": [1, 5],
+    "runBefore": ["Position"]
+}

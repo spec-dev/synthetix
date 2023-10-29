@@ -1,0 +1,8 @@
+{
+    "namespace": "synthetixv3",
+    "name": "Pool",
+    "version": "0.0.1",
+    "displayName": "Synthetix Pools",
+    "description": "All pools on Synthetix V3.",
+    "chains": [1, 5]
+}

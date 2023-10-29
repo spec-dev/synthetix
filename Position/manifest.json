@@ -1,0 +1,8 @@
+{
+    "namespace": "synthetixv3",
+    "name": "Position",
+    "version": "0.0.1",
+    "displayName": "Synthetix Positions",
+    "description": "All positions on Synthetix V3.",
+    "chains": [1, 5]
+}
